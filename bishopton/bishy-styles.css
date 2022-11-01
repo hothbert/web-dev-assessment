@@ -3,11 +3,12 @@ main, section {
 }
 
 body {
-  background-color: #ddeedd;
+  background-color: #ded;
 }
 
 header, footer {
   background-color: #b0aac0;
+  height: 180px;
 }
 
 nav, footer, header {
@@ -15,23 +16,18 @@ nav, footer, header {
 }
 
 main {
-  margin-bottom:10px;
-  margin-top: 10px
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 main, body {
-  padding:10px;
+  padding: 10px;
 }
 
-.imageBanner {
+.image-banner {
   height: 100%;
   display: block;
   margin: auto;
-}
-
-header, footer {
-  height: 180px;
-
 }
 
 p, li {
@@ -49,7 +45,7 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-left: 0px;
+  padding-left: 0pt;
   margin: 10px;
 }
 
@@ -60,14 +56,14 @@ nav ul li {
 }
 
 nav ul li a {
-  display:block;
-  color:white;
-  text-decoration:none;
+  display: block;
+  color: white;
+  text-decoration: none;
   text-align: center;
-  padding:5px;
+  padding: 5px;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   color: lightgrey;
-  background-color: #e5edf1
+  background-color: #e5edf1;
 }
