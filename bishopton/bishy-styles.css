@@ -1,13 +1,13 @@
 main, section {
-  background-color: #f9f7e0;
+  background-color: #f0efef;
 }
 
 body {
-  background-color: #fad4e2;
+  background-color: #ddeedd;
 }
 
 header, footer {
-  background-color: #1fb14f;
+  background-color: #b0aac0;
 }
 
 nav, footer, header {
@@ -50,7 +50,7 @@ header, footer {
 /* Navigation List Properties */
 
 nav {
-  background-color: #b7e02c;
+  background-color: #c2d4dd;
   height: 29px;
 }
 
@@ -76,5 +76,5 @@ nav ul li a {
 
 nav ul li a:hover{
   color: lightgrey;
-  background-color: #e2ee95
+  background-color: #e5edf1
 }
