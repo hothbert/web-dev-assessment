@@ -14,37 +14,28 @@ nav, footer, header {
   color: white;
 }
 
-footer {
-  list-style-type:none;
-}
-
 main {
-  margin-bottom:10px; margin-top:10px;
+  margin-bottom:10px;
+  margin-top: 10px
 }
 
-footer div {
-  padding-top:10px;
-  padding-left:10px;
-}
-
-section, body {
+main, body {
   padding:10px;
 }
 
-header h1 {
-  padding-top: 20px; 
-  padding-left: 30px;
-  display:inline;
-  float:left
-}
-
 .imageBanner {
-  float: right;
-  height:100%;
+  height: 100%;
+  display: block;
+  margin: auto;
 }
 
 header, footer {
-  height: 150px;
+  height: 180px;
+
+}
+
+p, li {
+  font-size: 20px;
 }
 
 /* Navigation List Properties */
@@ -59,11 +50,13 @@ nav ul {
   flex-direction: row;
   justify-content: center;
   padding-left: 0px;
+  margin: 10px;
 }
 
 nav ul li {
   list-style-type: none;
-  width: 20%
+  width: 20%;
+  min-width: 50px;
 }
 
 nav ul li a {

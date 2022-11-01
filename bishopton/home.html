@@ -2,15 +2,16 @@
 <html>
 
 <head>
-<title>Home</title>
-<link rel="stylesheet" type="text/css" href="bishy-styles.css">
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bishy-styles.css">
 </head>
 
 <body>
 
 <header>
    
-    <h1>Bishopton</h1>
     <img class="imageBanner" src="banner.jpg">
     
 </header>
@@ -25,28 +26,30 @@
 
 <main>
 
-    <section id = "location">
-        <div style = "display: inline">
-         <h3>The Village of Bishopton</h3>
-         <p>Bishopton (Scottish Gaelic - Baile an Easbaig) is a village located in Renfrewshire, in the west of Scotland, approximately 10 miles from Glasgow.</p>
-         <p>There is one train station in Bishopton on the Inverclyde line, going between Glasgow Central and Gourock/Wemyss Bay. There is also a bus service going to Clydebank, Erskine and Greenock. Additionally, the village is located 4 miles from Glasgow Airport.</p>
+    <div id = "location" style = "display: flex; flex-direction: row;">
+
+        <div id = "description">
+         <h2>The Village of Bishopton</h2>
+            <p>Bishopton (Scottish Gaelic - Baile an Easbaig) is a village located in Renfrewshire, in the west of Scotland, approximately 10 miles from Glasgow.</p>
+            <p>There is one train station in Bishopton on the Inverclyde line, going between Glasgow Central and Gourock/Wemyss Bay. There is also a bus service going to Clydebank, Erskine and Greenock. Additionally, the village is located 4 miles from Glasgow Airport.</p>  
         </div>
-        <div>
-            <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-4.559756383562235%2C55.8915816490345%2C-4.461308583879618%2C55.91967966642611&amp;layer=mapnik&amp;marker=55.905633202270856%2C-4.510532483720908" style="border: 1px solid black"></iframe>
-            <br/>
+
+        <div id = "map" style = "padding-left: 10px;">
+            <iframe width="350" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-4.533920447997142%2C55.895483279271694%2C-4.484696548155834%2C55.90953341953096&amp;layer=mapnik&amp;marker=55.90250898556423%2C-4.509308498076507" style="border: 1px solid black"></iframe><br/>
             <small>
-                <a href="https://www.openstreetmap.org/?mlat=55.9056&amp;mlon=-4.5105#map=14/55.9056/-4.5105">View Larger Map</a>
+                <a href="https://www.openstreetmap.org/?mlat=55.9025&amp;mlon=-4.5093#map=15/55.9025/-4.5093">View Larger Map</a>
             </small>
         </div>
-    </section>
 
-    <section id = "facts"    
+    </div>
+
+    <div id = "facts">
         <p>Notable people from Bishopton include:</p>
         <ul>
             <li>The Baroness Annabell Goldie - Minister of State for Defence and former leader of the Scottish Conservative Party</li>
             <li>Douglass Alexander - former MP and Foreign Secretary</li>
         </ul> 
-    </section>
+    </div>
         
 </main>
 
