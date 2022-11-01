@@ -1,0 +1,80 @@
+main, section {
+  background-color: #f9f7e0;
+}
+
+body {
+  background-color: #fad4e2;
+}
+
+header, footer {
+  background-color: #1fb14f;
+}
+
+nav, footer, header {
+  color: white;
+}
+
+footer {
+  list-style-type:none;
+}
+
+main {
+  margin-bottom:10px; margin-top:10px;
+}
+
+footer div {
+  padding-top:10px;
+  padding-left:10px;
+}
+
+section, body {
+  padding:10px;
+}
+
+header h1 {
+  padding-top: 20px; 
+  padding-left: 30px;
+  display:inline;
+  float:left
+}
+
+.imageBanner {
+  float: right;
+  height:100%;
+}
+
+header, footer {
+  height: 150px;
+}
+
+/* Navigation List Properties */
+
+nav {
+  background-color: #b7e02c;
+  height: 29px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 0px;
+}
+
+nav ul li {
+  list-style-type: none;
+  width: 20%
+}
+
+nav ul li a {
+  display:block;
+  color:white;
+  text-decoration:none;
+  text-align: center;
+  padding:5px;
+}
+
+nav ul li a:hover{
+  color: lightgrey;
+  background-color: #e2ee95
+}
