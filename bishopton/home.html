@@ -6,73 +6,79 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="bishy-styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    
 </head>
 
 <body>
 
-<header>
+    <header>
    
-    <img class="image-banner" src="banner.jpg">
+        <img class="image-banner" src="banner.jpg">
     
-</header>
+    </header>
 
-<nav>
-<ul>
-<li><a href="home.html">Home</a></li>
-<li><a href="history.html">History</a></li>
-<li><a href="visit.html">Visit</a></li>
-</ul>
-</nav>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="visit.html">Visit</a></li>
+        </ul>
+    </nav>
 
-<main>
+    <main>
 
-    <div id = "location" style = "display: flex; flex-direction: row;">
+        <div id = "location" style = "display: flex; flex-direction: row;">
 
-        <div id = "description">
-         <h2>The Village of Bishopton</h2>
-            <p>Bishopton (Scottish Gaelic - Baile an Easbaig) is a village located in Renfrewshire, in the west of Scotland, approximately 10 miles from Glasgow.</p>
-            <p>There is one train station in Bishopton on the Inverclyde line, going between Glasgow Central and Gourock/Wemyss Bay. There is also a bus service going to Clydebank, Erskine and Greenock. Additionally, the village is located 4 miles from Glasgow Airport.</p>  
-            <p>There are two schools in Bishopton, Bishopton Primary School and the recently opened Dargavel Primary School. The village is in the catchment area of Park Mains High School.</p>
-            <p>Bishopton also features a library, community centre and bowling green, as well as a sports and social club.</p>
+            <div id = "description">
+                <h2>The Village of Bishopton</h2>
+                <p>Bishopton (Scottish Gaelic - Baile an Easbaig) is a village located in Renfrewshire, in the west of Scotland, approximately 10 miles from Glasgow.</p>
+                <p>There is one train station in Bishopton on the Inverclyde line, going between Glasgow Central and Gourock/Wemyss Bay. There is also a bus service going to Clydebank, Erskine and Greenock. Additionally, the village is located 4 miles from Glasgow Airport.</p>  
+                <p>There are two schools in Bishopton, Bishopton Primary School and the recently opened Dargavel Primary School. The village is in the catchment area of Park Mains High School.</p>
+                <p>Bishopton also features a library, community centre and bowling green, as well as a sports and social club.</p>
+            </div>
+
+            <div id = "map" style = "padding-left: 10px;">
+                <iframe width="350" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-4.533920447997142%2C55.895483279271694%2C-4.484696548155834%2C55.90953341953096&amp;layer=mapnik&amp;marker=55.90250898556423%2C-4.509308498076507" style="border: 1px solid black"></iframe><br/>
+                <small>
+                   <a href="https://www.openstreetmap.org/?mlat=55.9025&amp;mlon=-4.5093#map=15/55.9025/-4.5093">View Larger Map</a>
+                </small>
+            </div>
+
         </div>
 
-        <div id = "map" style = "padding-left: 10px;">
-            <iframe width="350" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-4.533920447997142%2C55.895483279271694%2C-4.484696548155834%2C55.90953341953096&amp;layer=mapnik&amp;marker=55.90250898556423%2C-4.509308498076507" style="border: 1px solid black"></iframe><br/>
-            <small>
-                <a href="https://www.openstreetmap.org/?mlat=55.9025&amp;mlon=-4.5093#map=15/55.9025/-4.5093">View Larger Map</a>
-            </small>
+        <div style = "overflow: auto;">
+
+            <div style = "float: left; margin-right: 20px;">
+                <img src = "village-signs.jpg" style = "height: 250px;"><br/>
+                <small><a href="https://commons.wikimedia.org/wiki/File:Bishopton_village_signs_(geograph_5938565).jpg">image source</a><small>
+            </div>
+
+            <p>Notable people from Bishopton include:</p>
+            <ul style = "overflow: auto;">
+                <li>The Baroness Annabell Goldie - Minister of State for Defence and former leader of the Scottish Conservative Party</li>
+                <li>Douglass Alexander - former MP and Foreign Secretary</li>
+            </ul> 
+            <p>Fun Fact! Bishopton contains no streets, only crescents, roads, avenues and drives.</p>
+
         </div>
-
-    </div>
-
-    <div style = "overflow: auto;">
-
-        <div style = "float: left; margin-right: 20px;">
-            <img src = "village-signs.jpg" style = "height: 250px;"><br/>
-            <small><a href="https://commons.wikimedia.org/wiki/File:Bishopton_village_signs_(geograph_5938565).jpg">image source</a><small>
-        </div>
-
-        <p>Notable people from Bishopton include:</p>
-        <ul style = "overflow: auto;">
-            <li>The Baroness Annabell Goldie - Minister of State for Defence and former leader of the Scottish Conservative Party</li>
-            <li>Douglass Alexander - former MP and Foreign Secretary</li>
-        </ul> 
-        <p>Fun Fact! Bishopton contains no streets, only crescents, roads, avenues and drives.</p>
-
-    </div>
         
-</main>
+    </main>
 
-<footer>
-    <div>
-        references
-        <li>
-            <ul><a href="">1</a></ul>
-            <ul><a href="">2</a></ul>
-            <ul><a href="">3</a></ul>
-        </li>
-    </div>
-</footer>
+    <footer>
+        <div>
+            references
+            <li>
+                <ul><a href="">1</a></ul>
+                <ul><a href="">2</a></ul>
+                <ul><a href="">3</a></ul>
+            </li>
+        </div>
+    </footer>
 
 </body>
 </html>

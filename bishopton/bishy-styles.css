@@ -1,45 +1,43 @@
-main, section {
+main {
   background-color: #f0efef;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 15px;
 }
 
 body {
-  background-color: #ded;
+  background-color: #ded !important;
+  padding: 15px;
 }
 
-header, footer {
+footer {
   background-color: #b0aac0;
   height: 180px;
+}
+
+.image-banner {
+  width: 100%;
+  height: auto;
 }
 
 nav, footer, header {
   color: white;
 }
 
-main {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-main, body {
-  padding: 15px;
-}
-
-.image-banner {
-  height: 100%;
-  display: block;
-  margin: auto;
-}
-
 p, li {
-  font-size: 20px;
+  font-size: 17px;
   text-align: justify;
+}
+
+small {
+  font-size: 8px;
 }
 
 /* Navigation List Properties */
 
 nav {
   background-color: #c2d4dd;
-  height: 29px;
+  height: 30px;
 }
 
 nav ul {
@@ -59,9 +57,11 @@ nav ul li {
 nav ul li a {
   display: block;
   color: white;
-  text-decoration: none;
+  text-decoration: none !important;
   text-align: center;
   padding: 5px;
+  height: 30px !important;
+  font-size: 15px !important;
 }
 
 nav ul li a:hover {
