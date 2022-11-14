@@ -12,7 +12,7 @@ body {
 
 footer {
   background-color: #b0ce83;
-  height: 180px;
+  height: 100px;
 }
 
 .image-banner {
@@ -27,6 +27,11 @@ nav, footer, header {
 p, li {
   font-size: 17px;
   text-align: justify;
+}
+
+h2, h3, h4, .card-link, .collapsed.card-link {
+  font-family: 'Bradley Hand ITC';
+  font-weight: bold !important;
 }
 
 small {
