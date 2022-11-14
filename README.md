@@ -1,25 +1,15 @@
-### What is this?
-This `README.md` file is auto-created for all new projects.
+**Website Design**
 
-### Why am I here?
-This file opens automatically when you open a project. 
+The colour choices and banner were made to reflect nature since Bishopton is a town with great scenery and wildlife.
+The layout was kept simple and organised to make it easy to read and understand, with relevant headings and subheadings.
+The navigation consists of just a horizontal navbar since there are only three pages. There are external hyperlinks that lead to sources of images and information.
 
-If you do not create Guides, this `README.md` will be what automatically opens for students. You can edit this file by clicking on the pencil icon in the upper right corner.
+**Challenges Faced**
 
-### How do I get started with Codio?
-Use this [Onboarding Guide](https://codio.com/home/starter-packs/2ae8501b-e5f7-4b07-8e9f-adb155fc6d10) for an interactive tutorial through the main features of Codio. Click on the link, click **Use Pack** and then click **Create** to add it to your projects.
+One difficulty was finding information and images about my home town. Since i am just from a village there isn't much on the internet about it.
+Another challenged i faced was making the banner responsive. I originally had set the picture as the background to the header which was proving to be difficult to work with but the problem was solved by just inserting the image straight in.
+Adjusting to the changes made when bootstrap was applied also caused some small challenges, particularly to the nav bar.
 
-### How do I close this file?
-At the top of your workspace you will see tabs for each open file. Click the x on the right hand side of the tab that says **README.md**.
-![readMeTab](https://global.codio.com/platform/readme.resources/readMeTab.png)
+Holly Sinclair 52209562
 
-### I expected to see or edit learning materials.
-Select **Tools->Guide->Play** to view the Guide for this project.
-![playGuide](https://global.codio.com/platform/readme.resources/playGuide.png)
-
-Click on the **Open Guides Editor** icon to edit the Guide.
-![guideEdit](https://global.codio.com/platform/readme.resources/guideEdit.png)
-
-### How do I delete this file?
-To delete this `README.md` file, right-click (ctrl-click on a Mac) on the file name in the file list.
-![fileTree](https://global.codio.com/platform/readme.resources/fileTree.png)
+**git log**
